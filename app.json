@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "lojinha-pam",
-    "slug": "lojinha-pam",
+    "name": "Carrinho",
+    "slug": "carrinho",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
