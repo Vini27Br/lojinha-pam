@@ -19,7 +19,7 @@ export default function Catalogo() {
 
     <View>
 
-    <Text >ESCOLHA SEU CARRO</Text>
+    <Text >ESCOLHA SEU CARRO DE CORRIDA </Text>
 
     <Text style={estilos.corredortitulo} > Trovão </Text>
     <Image source={ unoescada } style={estilos.corredor}/>
@@ -42,7 +42,8 @@ const estilos = StyleSheet.create({
     },
     corredortitulo: {
         fontSize: 18,
-        marginTop: 5
+        marginTop: 5,
+    fontFamily: "ComicRegular"
 
     },
 
@@ -59,6 +60,7 @@ const estilos = StyleSheet.create({
         fontSize: 24,
         lineHeight: 26,
         padding: 16,
+        fontFamily: "ComicBold"
         
     },
 
