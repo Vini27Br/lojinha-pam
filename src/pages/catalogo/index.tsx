@@ -14,12 +14,12 @@ export default function Catalogo() {
     return <>
     <Image source={ UnoTopo } style={estilos.topo} />
     
-    <Text style={estilos.titulo}>ESCOLHA O SEU CARRO E APOSTE</Text>
+    <Text style={estilos.titulo}>CORRINA MUNICIPAL DE ANANINDEUA DE CARROS POPULAR ANTIGOS</Text>
 
 
     <View>
 
-    <Text >ESCOLHA SEU CARRO DE CORRIDA </Text>
+    <Text style={estilos.subtitulo} >ESCOLHA SEU CARRO DE CORRIDA </Text>
 
     <Text style={estilos.corredortitulo} > Trovão </Text>
     <Image source={ unoescada } style={estilos.corredor}/>
@@ -37,13 +37,18 @@ const estilos = StyleSheet.create({
 
     corredor: {
         width: 300,
-        height: 150
+        height: 150,
+       marginLeft: 50,
+       marginTop: 5,
+       borderRadius: 10,
 
     },
     corredortitulo: {
         fontSize: 18,
-        marginTop: 5,
-    fontFamily: "ComicRegular"
+        marginTop: 10,
+    fontFamily: "ComicRegular",
+        textAlign: "center",
+        
 
     },
 
@@ -57,12 +62,16 @@ const estilos = StyleSheet.create({
         position: "absolute",
         color: "black",
         textAlign: "center",
-        fontSize: 24,
+        fontSize: 20,
         lineHeight: 26,
         padding: 16,
         fontFamily: "ComicBold"
         
     },
+    subtitulo: {
+        fontFamily: "ComicBold",
+        textAlign: "center",
+    }
 
 
 
