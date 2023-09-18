@@ -19,7 +19,7 @@ export default function Catalogo() {
 
     <View>
 
-    <Text style={estilos.subtitulo} >ESCOLHA SEU CARRO DE CORRIDA </Text>
+    <Text style={estilos.subtitulo} >CORREDORES </Text>
 
     <Text style={estilos.corredortitulo} > Trovão </Text>
     <Image source={ unoescada } style={estilos.corredor}/>
@@ -71,6 +71,7 @@ const estilos = StyleSheet.create({
     subtitulo: {
         fontFamily: "ComicBold",
         textAlign: "center",
+        fontSize: 18
     }
 
 
